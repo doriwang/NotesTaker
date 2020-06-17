@@ -17,6 +17,3 @@ app.use("/", htmlRoutes)
 app.listen(PORT, function () {
     console.log("Server is listening on http://localhost:" + PORT)
 })
-
-// questions: 
-// when to use return res.json()
